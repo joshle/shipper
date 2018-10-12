@@ -1,5 +1,5 @@
 # vessel-service/Dockerfile
-FROM golang:1.9.0 as builder
+FROM golang:1.10.4 as builder
 
 WORKDIR /go/src/github.com/joshle/shippy/vessel-service
 
