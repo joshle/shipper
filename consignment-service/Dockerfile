@@ -1,4 +1,4 @@
-FROM golang:1.9.0 as builder
+FROM golang:1.10.4 as builder
 
 # Set our workdir to our current service in the gopath
 WORKDIR /go/src/github.com/joshle/shippy/consignment-service
