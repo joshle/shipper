@@ -11,7 +11,7 @@ import (
 	"github.com/micro/go-micro/cmd"
 	"golang.org/x/net/context"
 
-	pb "github.com/joshle/shipper/consignment-service/proto/consignment"
+	pb "github.com/joshle/shippy/consignment-service/proto/consignment"
 )
 
 const (

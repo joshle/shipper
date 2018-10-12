@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 	// 导入生成的consignment.pb.go文件
-	pb "github.com/joshle/shipper/consignment-service/proto/consignment"
+	pb "github.com/joshle/shippy/consignment-service/proto/consignment"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
